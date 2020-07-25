@@ -5,11 +5,14 @@
 }
 body{
     font-family: 'montserrat', sans-serif;
-    background-image: linear-gradient(to right, rgb(242, 245, 81),orange)
+    background-image: linear-gradient(to right, rgb(242, 245, 81),orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .app-wrap
 {
-    margin: 50px 100px 100px 300px;
+    margin-top: 2rem;
     display:flex;
     flex-direction: column;
     min-height: 80vh;
